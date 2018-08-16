@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ja_JP/user.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="ja_JP" full_name = "日本語">
+	<message key="user.accountInformation">アカウント情報</message>
+	<message key="user.affiliation">所属</message>
+	<message key="user.affiliation.description">(所属 例: 慶應義塾大学)</message>
+	<message key="user.affiliations">所属</message>
+	<message key="user.authorization.accessDenied">アクセスが拒否されました</message>
+	<message key="user.authorization.processAuthenticationTokenRequired">The process authentication token is missing or invalid.</message>
+	<message key="user.authorization.contextRequired">You cannot call this operation without a context (press, journal, conference, etc).</message>
+	<message key="user.authorization.loginRequired">ログインが必要です</message>
+	<message key="user.authorization.privateOperation">The operation you tried to access is either private or doesn't exist.</message>
+	<message key="user.authorization.restrictedSiteAccess">アクセスが拒否されました。現在、このサイトへのアクセスは制限されています。</message>
+	<message key="user.authorization.roleBasedAccessDenied">現在の役割ではこの操作を実行できません。</message>
+	<message key="user.authorization.assignedStageRoleBasedAccessDenied">You have not been assigned to this submission with a role that is allowed to access this operation.</message>
+	<message key="user.authorization.userGroupRequired">You have to set a valid user group to access this operation.</message>
+	<message key="user.authorization.managerRequired">A user with a Manager role (i.e. Production Editor) must be assigned to the stage before you can proceed.</message>
+	<message key="user.authorization.accessibleWorkflowStage">You don't currently have access to that stage of the workflow.</message>
+	<message key="user.authorization.workflowStageRequired">A workflow stage was not specified.</message>
+	<message key="user.authorization.pluginRequired">A plugin was not specified and is required.</message>
+	<message key="user.authorization.invalidReviewAssignment">You do not have permission to access this review assignment.</message>
+	<message key="user.authorization.submissionQuery">You do not have permission to access this discussion.</message>
+	<message key="user.biography">経歴 +</message>
+	<message key="user.changeMyPassword">パスワードの変更</message>
+	<message key="user.changePassword">パスワードの変更</message>
+	<message key="user.dateLastLogin">最新ログイン</message>
+	<message key="user.dateRegistered">登録日</message>
+	<message key="user.editMyProfile">ユーザ情報の変更</message>
+	<message key="user.email">メールアドレス</message>
+	<message key="user.givenName">Given Name</message>
+	<message key="user.interests">査読可能分野</message>
+	<message key="user.interests.description">（関心領域を改行またはコンマで分けてください）</message>
+	<message key="user.gossip">個人情報</message>
+	<message key="user.gossip.description">Record notes about this reviewer that you would like to make visible to other administrators, managers and all editors. Notes will be visible for future review assignments.</message>
+	<message key="user.group">ユーザグループ</message>
+	<message key="user.familyName">Family Name</message>
+	<message key="user.profile.form.profileImageInvalid">無効な画像フォーマットか画像サイズが大きすぎます。[gif], [jpg], [png]フォーマットで 150x150 pixel を越えない画像でなければなりません。</message>
+	<message key="user.login.accountDisabledWithReason">このアカウントは次の理由で無効になっています: {$reason}</message>
+	<message key="user.login.accountDisabled">このアカウントは無効です。詳細は管理者にご連絡ください。</message>
+	<message key="user.login.accountNotValidated">メールアドレスが不正です。メールアドレスをチェックして、指示に従ってください。メールを受け取っていない場合は、サイトの管理者に連絡する必要があるかもしれません。</message>
+	<message key="user.login.activate">アカウントの有効化</message>
+	<message key="user.login.activated">アカウントの有効化を行ってくださいまして、ありがとうございます。ただ今から、アカウントを作成した際に登録していただいたクレデンシャルを使ってログインすることが可能です。</message>
+	<message key="user.login.changePasswordInstructions"><![CDATA[このサイトにログインする前に新しいパスワードを選んでください。<br /><br />あたらしいユーザ名と現在のパスワードと新しいパスワードを入力してアカウントのパスワードを変更してください。]]></message>
+	<message key="user.login.forgotPassword">パスワードはmt-rgアカウントのものを同じです。パスワードを忘れた場合、&lt;a href=&quot;https://rg.bioinfo.ttck.keio.ac.jp/wiki/x/6gKf&quot;&gt;mt-rgアカウントのパスワードを復旧&lt;/a&gt;してください。</message>
+	<message key="user.login.loginError">ユーザ名またはパスワードが正しくありません。もう一度入力してください。</message>
+	<message key="user.login">ログイン</message>
+	<message key="user.login.lostPassword.confirmationSent">確認メールを入力されたメールアドレスに送信しました。メールに書かれている指示に従って、パスワードをリセットしてください。</message>
+	<message key="user.login.lostPassword.invalidHash">このリンクは有効期限切れ、または正しくありません。申し訳ありませんが、もう一度、パスワードのリセット処理を行ってください。</message>
+	<message key="user.login.lostPassword.invalidUser">指定されたメールアドレスにユーザが存在しません。</message>
+	<message key="user.login.lostPassword.passwordSent">新しいパスワードを指定のメールアドレスに送信しました。今後、新しいパスワードでこのサイトにログインすることができます。</message>
+	<message key="user.login.registeredEmail">登録ユーザのメールアドレス</message>
+	<message key="user.login.registrationComplete">Registration complete</message>
+	<message key="user.login.registrationComplete.instructions">Thanks for registering! What would you like to do next?</message>
+	<message key="user.login.registrationComplete.manageSubmissions">View Submissions</message>
+	<message key="user.login.registrationComplete.newSubmission">Make a New Submission</message>
+	<message key="user.login.registrationComplete.continueBrowsing">Continue Browsing</message>
+	<message key="user.login.registrationPendingValidation">Registration awaiting verification</message>
+	<message key="user.login.rememberUsernameAndPassword">ユーザ名とパスワードを記憶する</message>
+	<message key="user.login.resetPassword">パスワードのリセット</message>
+	<message key="user.logOut">ログアウト</message>
+	<message key="user.logOutAs">Logout as</message>
+	<message key="user.hello">Hello, </message>
+	<message key="user.mailingAddress">その他のメールアドレス</message>
+	<message key="user.myAccount">マイ・アカウント</message>
+	<message key="user.name">名前</message>
+	<message key="user.password">パスワード</message>
+	<message key="user.repeatPassword">もう一度パスワードを入力してください</message>
+	<message key="user.phone">電話</message>
+	<message key="user.preferredPublicName">Preferred Public Name</message>
+	<message key="user.preferredPublicName.description">How do you prefer to be addressed? Salutations, middle names and suffixes can be added here if you would like.</message>
+	<message key="user.profile.changePasswordInstructions">パスワードの変更を行う場合は、現在のパスワードと新しいパスワードを以下の該当欄に入力してください。</message>
+	<message key="user.profile.editProfile">ユーザ情報の編集</message>
+	<message key="user.profile.form.countryRequired">国は必須です。</message>
+	<message key="user.profile.form.emailRequired">メールアドレスは必須です。</message>
+	<message key="user.profile.form.affiliationRequired">所属は必須です。</message>
+	<message key="user.profile.form.givenNameRequired">A given name is required.</message>
+	<message key="user.profile.form.givenNameRequired.locale">You have added a family name for a language that is missing the given name. Please add a given name for this language.</message>
+	<message key="user.profile.form.mailingAddressRequired">メールアドレスは必須です。</message>
+	<message key="user.profile.form.newPasswordRequired">新しいパスワードを入力してください。</message>
+	<message key="user.profile.form.oldPasswordInvalid">入力された現在のパスワードは間違っています。</message>
+	<message key="user.profile.form.openAccessNotifications">オープンアクセスになった巻号のメール通知</message>
+	<message key="user.profile.form.passwordRequired">パスワードは必須です。</message>
+	<message key="user.profile.form.passwordSameAsOld">入力されたパスワードは古いパスワードと同じです。</message>
+	<message key="user.profile.form.profileImage">プロファイル画像</message>
+	<message key="user.profile.form.publishedNotifications">最新号出版のメール通知</message>
+	<message key="user.profile.form.urlInvalid">指定されたURLは不正です。URLをもう一度確認して再度入力してください。（URLの先頭にhttp://があることを確認してください）</message>
+	<message key="user.profile.form.usergroupRequired">ユーザグループは必須です。</message>
+	<message key="user.profile.form.usernameRequired">ユーザ名は必須です。</message>
+	<message key="user.profile.form.privacyConsentRequired">You must agree to the terms of the privacy statement.</message>
+	<message key="user.profile.leavePasswordBlank">現在のパスワードを変更しない場合は、パスワード欄を空白のままにしておいてください。</message>
+	<message key="user.profile.newPassword">新しいパスワード</message>
+	<message key="user.profile.oldPassword">現在のパスワード</message>
+	<message key="user.profile">ユーザ情報</message>
+	<message key="user.profile.publicProfile">ユーザプロファイル</message>
+	<message key="user.profile.repeatNewPassword">新パスワードの確認</message>
+	<!-- Login -->
+	<message key="user.login.registerNewAccount">Register</message>
+	<message key="user.login.resetPasswordInstructions">Enter your account email address below and an email will be sent with instructions on how to reset your password.</message>
+
+	<message key="user.register.form.privacyConsent"><![CDATA[Yes, I agree to have my data collected and stored according to the <a href="{$privacyUrl}" target="_blank">privacy statement</a>.]]></message>
+	<message key="user.register.form.emailConsent">Yes, I would like to be notified of new publications and announcements.</message>
+	<message key="user.register.form.emailExists">指定されたメールアドレスは既に別のユーザに使用されています。</message>
+	<message key="user.register.form.passwordsDoNotMatch">パスワードが一致しません。</message>
+	<message key="user.register.form.emailsDoNotMatch">メールアドレスが一致しません。</message>
+	<!-- en_US locale 20160711 BEGIN -->
+	<!-- en_US locale 20160711 BEGIN -->
+	<message key="user.register.form.usernameAlphaNumeric">ユーザ名に使用できる文字は、英数字とアンダーバー "_"、ハイフン "-" だけです。また、最初と最後の文字は英数字でなければなりません。</message>
+	<message key="user.register.form.userGroupRequired">At least one role must be selected.</message>
+	<message key="user.register.form.usernameExists">指定されたユーザ名は既に使用されています。</message>
+	<message key="user.register.form.passwordLengthRestriction">The password must be at least {$length} characters.</message>
+	<message key="user.register.registerAs">登録ユーザの役割</message>
+	<message key="user.register">登録</message>
+	<message key="user.register.usernameRestriction">ユーザ名は &lt;strong&gt;mt-rg アカウントと同一&lt;/strong&gt;でなければなりません。</message>
+	<message key="user.register.registrationCompleted"><![CDATA[You have successfully registered. <a href="{$profileUrl}">Click here</a> to complete your user profile.]]></message>
+	<message key="user.role.assistant">Assistant</message>
+	<message key="user.role.author">Author</message>
+	<message key="user.role.author_s">Author(s)</message>
+	<message key="user.role.authors">Authors</message>
+	<message key="user.role.editor">Editor</message>
+	<message key="user.role.editors">Editors</message>
+	<message key="user.role.reader">読者</message>
+	<message key="user.role.readers">読者</message>
+	<message key="user.role.reviewer">査読者</message>
+	<message key="user.role.reviewers">査読者</message>
+	<message key="user.role.siteAdmin">サイト管理者</message>
+	<message key="user.role.siteAdmins">サイト管理者</message>
+	<message key="user.role.copyeditor">Copyeditor</message>
+	<message key="user.role.copyeditors">Copyeditors</message>
+	<message key="user.role.proofreader">Proofreader</message>
+	<message key="user.role.proofreaders">Proofreaders</message>
+	<message key="user.role.layoutEditor">Layout Editor</message>
+	<message key="user.role.layoutEditors">Layout Editors</message>
+	<message key="user.roles">役割</message>
+	<message key="user.sendPassword">確認</message>
+	<message key="user.sendPassword.description">ユーザ名とパスワードを含む確認メールを送信してください。</message>
+	<message key="user.signature">シグネチャー</message>
+	<message key="user.title">身分</message>
+	<message key="user.url">URL</message>
+	<message key="user.userHome">ユーザホーム</message>
+	<message key="user.username">ユーザ名</message>
+	<message key="user.workingLanguages">使用言語</message>
+	<message key="user.orcid">ORCID iD</message>
+	<message key="user.orcid.orcidInvalid">The ORCID iD you specified is invalid. Please include the full URI (e.g. "http://orcid.org/0000-0002-1825-0097").</message>
+	<message key="user.profile.identity">Identity</message>
+	<message key="user.profile.contact">Contact</message>
+	<message key="user.profile.public">Public</message>
+	<message key="user.apiKey">API Key</message>
+	<message key="user.apiKeyEnabled">Enable external applications with the API key to access this account</message>
+	<message key="user.apiKey.generate">Generate new API key</message>
+	<message key="user.apiKey.generateWarning">Generating a new API key will invalidate any existing key for this user.</message>
+	<message key="user.apiKey.secretRequired">Before generating an API key, your site administrator must set a secret in the config file ("api_key_secret").</message>
+	<message key="user.privacyLink"><![CDATA[Your data is stored in accordance with our <a href="{$privacyUrl}" target="_blank">privacy statement</a>.]]></message>
+</locale>
