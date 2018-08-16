@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ja_JP/admin.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="ja_JP" full_name = "日本語">
+	<message key="admin.systemInfo.settingName">Setting Name</message>
+	<message key="admin.systemInfo.settingValue">Setting Value</message>
+	<message key="admin.adminFunctions">管理機能</message>
+	<message key="admin.auth.confirmDelete">この認証システムを完全に削除してもよいですか。</message>
+	<message key="admin.auth.create">認証システムの作成</message>
+	<message key="admin.auth.noneCreated">認証システムは定義されていません。</message>
+	<message key="admin.authSources">認証システム</message>
+	<message key="admin.clearDataCache">データキャッシュのクリア</message>
+	<message key="admin.clearTemplateCache">テンプレートキャッシュのクリア</message>
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[あなたの設定ファイルは正常にアップデートされました。もしあなたのサイトがまだ正常に機能していない場合は，<tt>config.inc.php</tt> を直接編集して設定を修正する必要があるかもしれません。]]></message>
+	<message key="admin.confirmClearTemplateCache">コンパイル済テンプレートのキャッシュをクリアしてもよいですか。</message>
+	<message key="admin.confirmExpireSessions">全てのユーザのセッションを破棄してもよいですか。これを実行すると、現在、システムにログインしているユーザは（あなたを含めて）すべて再ログインが必要になります。</message>
+	<message key="admin.contentsOfConfigFile">設定ファイルの内容</message>
+	<message key="admin.contexts.confirmDelete">Are you sure you want to permanently delete {$contextName} and all of its contents?</message>
+	<message key="admin.currentVersion">現在のバージョン</message>
+	<message key="admin.dateInstalled">インストール日</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[アップデートされる設定内容は下記のとおりです。設定の変更を適用するために <tt>config.inc.php</tt> をテキストエディタで開き，下記のテキストフィールドの記述と置き換えてください。]]></message>
+	<message key="admin.displayNewSystemConfig">設定を表示</message>
+	<message key="admin.expireSessions">ユーザセッションの破棄</message>
+	<message key="admin.languages.download">Download Locale</message>
+	<message key="admin.languages.downloadLocales">Download Locales</message>
+	<message key="admin.languages.download.cannotOpen">Cannot open language descriptor from PKP web site.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Cannot add the new locale to the locale registry file, typically "registry/locales.xml".</message>
+	<message key="admin.languages.cantDisable">This locale is the primary language of the site. You can't disable it until you choose another primary locale.</message>
+
+	<message key="admin.languages.confirmReload">この言語をリロードしてもよいですか。これを実行すると、サイトで修正した各言語の既存データ（メールテンプレートなど）が消去され、システム提供のデフォルトに戻されます。</message>
+	<message key="admin.languages.installedLocales">インストールされている言語</message>
+	<message key="admin.languages.installLanguages">言語の管理</message>
+	<message key="admin.languages.availableLocales">Available Locales</message>
+	<message key="admin.languages.installLocale">Install Locale</message>
+	<message key="admin.languages.installLocales">インストール</message>
+	<message key="admin.languages.installNewLocales">新規言語のインストール</message>
+	<message key="admin.languages.languageSettings">言語設定</message>
+	<message key="admin.languages.noLocalesAvailable">インストールできる言語はありません。</message>
+	<message key="admin.languages.reload">言語のリロード</message>
+	<message key="admin.languages.uninstall">言語のアンインストール</message>
+	<message key="admin.phpInfo">PHP環境設定情報</message>
+	<message key="admin.scheduledTask">Scheduled task</message>
+	<message key="admin.scheduledTask.startTime">Task process started.</message>
+	<message key="admin.scheduledTask.stopTime">Task process stopped.</message>
+	<message key="admin.scheduledTask.noLog">Task produced no log.</message>
+	<message key="admin.scheduledTask.downloadLog">Your {$softwareName} installation automatically executed and finished this task and you can download the log file here: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">Are you sure you want to delete all scheduled task execution logs?</message>
+	<message key="admin.scheduledTask.clearLogs">Clear Scheduled Task Execution Logs</message>
+	<message key="admin.scheduledTask.reviewReminder">Review reminder</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Subscription expiry reminder</message>
+	<message key="admin.server.apacheVersion">Apacheバージョン</message>
+	<message key="admin.server.dbDriver">データベースドライバ</message>
+	<message key="admin.server.dbVersion">データベースサーババージョン</message>
+	<message key="admin.serverInformation">サーバ情報</message>
+	<message key="admin.server.phpVersion">PHPバージョン</message>
+	<message key="admin.server.platform">OS</message>
+	<message key="admin.settings">Settings</message>
+	<message key="admin.settings.aboutDescription">サイトの説明</message>
+	<message key="admin.settings.contactEmail">連絡担当者メールアドレス</message>
+	<message key="admin.settings.contactName">連絡担当者名</message>
+	<message key="admin.settings.form.contactEmailRequired">連絡担当者メールアドレスは必須です。</message>
+	<message key="admin.settings.form.contactNameRequired">連絡担当者名は必須です。</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">パスワードには、少なくとも4文字以上入力する必要があります。</message>
+	<message key="admin.settings.form.titleRequired">サイト名は必須です。</message>
+	<message key="admin.settings.defaultMetricDescription">
+		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
+		search results. Please select one of the configured metrics as a default.
+	</message>
+	<message key="admin.settings.homeHeaderImage.altText">サイトロゴ</message>
+	<message key="admin.settings.homeHeaderImageInvalid">サイトロゴの画像フォーマットが不正です。使用できるフォーマットは、.gif, .jpg, .png　です。</message>
+	<message key="admin.settings.introduction">あいさつ文</message>
+	<message key="admin.settings.minPasswordLength">最小パスワード長</message>
+	<message key="admin.settings.siteLanguage">サイトの言語</message>
+	<message key="admin.settings.siteStyleSheetInvalid">サイトのスタイルシートのフォーマットが不正です。使用できるフォーマットは、.css です。</message>
+	<message key="admin.settings.siteStyleSheet">サイトのスタイルシート</message>
+	<message key="admin.settings.siteLogo">Site Logo</message>
+	<message key="admin.settings.siteTitle">サイト名</message>
+	<message key="admin.settings.siteTheme">Site Theme</message>
+	<message key="admin.siteAdmin">サイト管理</message>
+	<message key="admin.siteManagement">サイト管理</message>
+	<message key="admin.siteSettings">サイト設定</message>
+	<message key="admin.siteSetup">Site Setup</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[設定ファイル <tt>config.inc.php</tt> が存在しないか，読み込めない，あるいは無効です。]]></message>
+	<message key="admin.systemInformation">システム情報</message>
+	<message key="admin.versionBuild">ビルド</message>
+	<message key="admin.version.checkForUpdates">更新チェック</message>
+	<message key="admin.version.downloadPackage">ダウンロード</message>
+	<message key="admin.version.downloadPatch">パッチのダウンロード</message>
+	<message key="admin.versionHistory">バージョン履歴</message>
+	<message key="admin.version.latest">最新バージョン</message>
+	<message key="admin.versionMajor">メジャー</message>
+	<message key="admin.versionMinor">マイナー</message>
+	<message key="admin.version.moreInfo">さらなる情報</message>
+	<message key="admin.versionRevision">リビジョン</message>
+	<message key="admin.version.updateAvailable">新バージョンが利用できます</message>
+	<message key="admin.version.upToDate">このシステムは最新版です</message>
+	<message key="admin.version">バージョン</message>
+
+	<message key="admin.fileLoader.wrongBasePathLocation">Base path {$path} must be inside the public files directory.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Folder {$path} is not a directory or is not readable.</message>
+	<message key="admin.fileLoader.moveFileFailed">File {$filename} could not be moved from {$currentFilePath} to {$destinationPath}</message>
+	<message key="admin.fileLoader.fileProcessed">File {$filename} was processed and archived.</message>
+	<message key="admin.fileLoader.emailSubject">File loader</message>
+
+	<message key="admin.copyAccessLogFileTool.usage">Copy the passed apache access log file(s), filtering the entries related with this installation,
+to the current files directory, inside the UsageStatsPlugin stage directory. Must run under user with enough privilegies to read access apache log files.
+
+This tool will only copy files that aren't already inside the usageStats file loader directories (stage, processing, archive, reject).
+
+Usage: {$scriptName} path/to/apache/log/file.log
+Usage (processing all files inside a directory): {$scriptName} path/to/apache/directory
+	</message>
+	<message key="admin.copyAccessLogFileTool.error.creatingFolder">Error: can't create temporary folder {$tmpDir}</message>
+	<message key="admin.copyAccessLogFileTool.error.acessingFile">Error: File {$filePath} don't exist or can't be accessed.</message>
+	<message key="admin.copyAccessLogFileTool.error.copyingFile">Error: can't copy file from {$filePath} to {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.error.deletingFile">Error: can't delete file {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists">Warning: file {$filePath} already exists inside the usage stats directory.</message>
+	<message key="admin.copyAccessLogFileTool.success">Success: {$filePath} to {$destinationPath}</message>
+	<message key="admin.error.utilExecutionProblem">The "{$utilPath}" program execution returned the following error: {$output}</message>
+	<message key="admin.error.executingUtil">Error: can't execute "{$utilPath}".  Check your {$utilVar} setting in config.inc.php.</message>
+	<message key="admin.languages.noLocalesToDownload">There are no locales available for download.</message>
+</locale>
